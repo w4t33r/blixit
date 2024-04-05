@@ -1,0 +1,37 @@
+node_modules
+
+.cache
+.next
+next.config.mjs
+next-env-d.ts
+tsconfig.json
+.eslintrc.json
+
+
+*.log
+*.pdf
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/jsLinters/eslint.xml
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/mudume.iml
+/.idea/php.xml
+/.idea/prettier.xml
+/.idea/vcs.xml

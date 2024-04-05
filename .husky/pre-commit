@@ -1,0 +1,1 @@
+echo “yarn lint” > .husky/pre-commit
