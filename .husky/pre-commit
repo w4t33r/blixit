@@ -1,1 +1,1 @@
-echo “yarn check” > .husky/pre-commit
+yarn format
