@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+      - name: Check if build succeeded
+        run: |
+          if [ $? -eq 0 ]; then
+            echo "Build succeeded"
+          else
+            echo "Build failed"
+            exit 1
+          fi

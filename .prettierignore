@@ -6,7 +6,8 @@ next.config.mjs
 next-env-d.ts
 tsconfig.json
 .eslintrc.json
-
+.env
+next.config.js
 
 *.log
 *.pdf

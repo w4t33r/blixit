@@ -1,1 +1,1 @@
-echo “yarn lint” > .husky/pre-commit
+echo “yarn check” > .husky/pre-commit
