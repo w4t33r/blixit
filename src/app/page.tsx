@@ -1,10 +1,10 @@
 import styles from './page.module.css';
+import { Hero } from '@/components';
 
 export default function Home() {
-  const im = 'drake';
   return (
     <main className={styles.container}>
-      <p>Main</p>
+      <Hero />
     </main>
   );
 }
