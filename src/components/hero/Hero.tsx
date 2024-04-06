@@ -11,7 +11,7 @@ const Hero = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.textContainer}>
-          <h1>Hitta den perfekta presenten till dina nära och kära!</h1>
+          <h1>Den perfekta presenten&shy; till dina nära och kära!</h1>
           <p>hitta bland gåvor efter kategori eller special erbjudanden</p>
           <CustomSearch placeholder={'Sök efter den perfekta presenten'} />
         </div>
