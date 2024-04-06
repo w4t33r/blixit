@@ -1,9 +1,8 @@
 :root {
-  --navbar: #e8e8e8;
-  --text: #000000;
-  --subtext: #ff642f;
-  --additionalcolor: #e8e8e8;
-  --main: #fdfefe;
+  --bg: white;
+  --active-color: #f29c33;
+  --btn: #ee6352;
+  --text: #030303;
 }
 
 *,
@@ -16,15 +15,15 @@
 
 html,
 body {
+  color: var(--text);
   font-size: 16px;
-  line-height: 1.2;
-  font-weight: normal;
-  font-style: normal;
-  color: black;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
 }
 
 .container {
-  background: darkgray;
+  background: var(--bg);
   padding-left: 2rem;
   padding-right: 2rem;
   max-width: 1440px;
@@ -33,4 +32,10 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   margin: auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 62px;
 }
