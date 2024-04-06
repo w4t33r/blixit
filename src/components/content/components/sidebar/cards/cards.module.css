@@ -1,0 +1,71 @@
+.container {
+  flex-basis: 30%;
+  margin: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  width: calc(100% - 2rem);
+  height: 370px;
+  padding: 1rem;
+}
+
+.imageContainer {
+  position: relative;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.price {
+  color: #333;
+}
+
+.discount {
+  color: red;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.discountCircle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+}
+
+.actionButton {
+  cursor: pointer;
+  width: 200px;
+  height: 48px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  outline: none;
+}
