@@ -1,12 +1,13 @@
 .searchField {
+  padding: 40px;
   margin-top: 30px;
   display: flex;
   gap: 10px;
 }
 
 .customSearchContainer {
-  position: relative; /* Настроим позицию для корректного отображения иконки */
-  flex: 1; /* Растягиваем инпут на всю доступную ширину */
+  position: relative;
+  flex: 1;
 }
 
 .customSearch {
@@ -24,11 +25,11 @@
 }
 
 .customSearchIcon {
-  position: absolute; /* Абсолютное позиционирование иконки */
-  top: 50%; /* Выравнивание иконки по вертикали по центру */
-  right: 10px; /* Отступ справа */
-  transform: translateY(-50%); /* Коррекция позиции по вертикали */
-  width: 40px; /* Ширина иконки */
-  height: auto; /* Автоматическая высота */
-  cursor: pointer; /* Стиль курсора при наведении */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 40px;
+  height: auto;
+  cursor: pointer;
 }
