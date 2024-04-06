@@ -1,0 +1,15 @@
+.navbar {
+  border-bottom: 2px solid #f0f0f0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
