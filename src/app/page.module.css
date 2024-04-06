@@ -1,4 +1,6 @@
 .container {
+  padding: 40px;
+  margin-top: 50px;
   display: flex;
-  border: 1px solid yellow;
+  flex-direction: column;
 }
