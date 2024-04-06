@@ -1,0 +1,39 @@
+.container {
+  flex-basis: 30%;
+  margin: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  width: calc(100% - 2rem);
+  height: 192px;
+  padding: 1rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.timeContainer {
+  margin-top: 16px;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time {
+  width: 40px;
+  height: 50px;
+  border-radius: 12px;
+  background: white;
+  color: #030303;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+}
